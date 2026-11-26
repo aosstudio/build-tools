@@ -1,0 +1,32 @@
+set(AAPT_LEGACY
+    ${SOURCE_DIR}/frameworks/base/tools/aapt/AaptAssets.cpp
+    ${SOURCE_DIR}/frameworks/base/tools/aapt/AaptConfig.cpp
+    ${SOURCE_DIR}/frameworks/base/tools/aapt/AaptUtil.cpp
+    ${SOURCE_DIR}/frameworks/base/tools/aapt/AaptXml.cpp
+    ${SOURCE_DIR}/frameworks/base/tools/aapt/ApkBuilder.cpp
+    ${SOURCE_DIR}/frameworks/base/tools/aapt/Command.cpp
+    ${SOURCE_DIR}/frameworks/base/tools/aapt/CrunchCache.cpp
+    ${SOURCE_DIR}/frameworks/base/tools/aapt/FileFinder.cpp
+    ${SOURCE_DIR}/frameworks/base/tools/aapt/Images.cpp
+    ${SOURCE_DIR}/frameworks/base/tools/aapt/Package.cpp
+    ${SOURCE_DIR}/frameworks/base/tools/aapt/pseudolocalize.cpp
+    ${SOURCE_DIR}/frameworks/base/tools/aapt/Resource.cpp
+    ${SOURCE_DIR}/frameworks/base/tools/aapt/ResourceFilter.cpp
+    ${SOURCE_DIR}/frameworks/base/tools/aapt/ResourceIdCache.cpp
+    ${SOURCE_DIR}/frameworks/base/tools/aapt/ResourceTable.cpp
+    ${SOURCE_DIR}/frameworks/base/tools/aapt/SourcePos.cpp
+    ${SOURCE_DIR}/frameworks/base/tools/aapt/StringPool.cpp
+    ${SOURCE_DIR}/frameworks/base/tools/aapt/Utils.cpp
+    ${SOURCE_DIR}/frameworks/base/tools/aapt/WorkQueue.cpp
+    ${SOURCE_DIR}/frameworks/base/tools/aapt/XMLNode.cpp
+    ${SOURCE_DIR}/frameworks/base/tools/aapt/ZipEntry.cpp
+    ${SOURCE_DIR}/frameworks/base/tools/aapt/ZipFile.cpp
+)
+set(SPLIT_SELECT
+    ${SOURCE_DIR}/frameworks/base/tools/split-select/Abi.cpp
+    ${SOURCE_DIR}/frameworks/base/tools/split-select/Grouper.cpp
+    ${SOURCE_DIR}/frameworks/base/tools/split-select/Rule.cpp
+    ${SOURCE_DIR}/frameworks/base/tools/split-select/RuleGenerator.cpp
+    ${SOURCE_DIR}/frameworks/base/tools/split-select/SplitDescription.cpp
+    ${SOURCE_DIR}/frameworks/base/tools/split-select/SplitSelector.cpp
+)

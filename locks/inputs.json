@@ -1,0 +1,245 @@
+{
+  "source": {
+    "art_build_flags.tar.gz": {
+      "license": "Apache-2.0",
+      "path": "art/build/flags",
+      "sha256": "2f304f808773b86b73586073f9ef4d8e3507584283b47e6d6709e3d57c85967c",
+      "strip": 0,
+      "url": "https://android.googlesource.com/platform/art/+archive/ed6c006bd06ae060bd9698fd2cb25c4865512ec3/build/flags.tar.gz"
+    },
+    "art_dexdump.tar.gz": {
+      "license": "Apache-2.0",
+      "path": "art/dexdump",
+      "sha256": "5da4fc45748758bb0c5af3c4abb352864c70a7b6a80763e0157647c004b89d4a",
+      "strip": 0,
+      "url": "https://android.googlesource.com/platform/art/+archive/ed6c006bd06ae060bd9698fd2cb25c4865512ec3/dexdump.tar.gz"
+    },
+    "art_libartbase.tar.gz": {
+      "license": "Apache-2.0",
+      "path": "art/libartbase",
+      "sha256": "378cd3b71b8b3aa66cf7fe8d6e71cd004fced8401ae68c79c883a08412116bc2",
+      "strip": 0,
+      "url": "https://android.googlesource.com/platform/art/+archive/ed6c006bd06ae060bd9698fd2cb25c4865512ec3/libartbase.tar.gz"
+    },
+    "art_libartpalette.tar.gz": {
+      "license": "Apache-2.0",
+      "path": "art/libartpalette",
+      "sha256": "3517ab9dcaa728c44285bf3349f3fe2912f547e46ca84d3f9f592ec9c35b1775",
+      "strip": 0,
+      "url": "https://android.googlesource.com/platform/art/+archive/ed6c006bd06ae060bd9698fd2cb25c4865512ec3/libartpalette.tar.gz"
+    },
+    "art_libdexfile.tar.gz": {
+      "license": "Apache-2.0",
+      "path": "art/libdexfile",
+      "sha256": "76f389cc1597701c77bd1df71021986d7fe1d933f0302c080f782ee9a68f78c2",
+      "strip": 0,
+      "url": "https://android.googlesource.com/platform/art/+archive/ed6c006bd06ae060bd9698fd2cb25c4865512ec3/libdexfile.tar.gz"
+    },
+    "build_soong_cc_libbuildversion.tar.gz": {
+      "license": "Apache-2.0",
+      "path": "build/soong/cc/libbuildversion",
+      "sha256": "29dc67efb6b37af7cda542a5d1a722bb1198ff143f6b1ca30eec5441c7776ade",
+      "strip": 0,
+      "url": "https://android.googlesource.com/platform/build/soong/+archive/533c3c2c9166b49caa556518bb547d8f9acf9594/cc/libbuildversion.tar.gz"
+    },
+    "build_tools_zipalign.tar.gz": {
+      "license": "Apache-2.0",
+      "path": "build/tools/zipalign",
+      "sha256": "1a3ddeefec0dbc9605db50080af8e09278696136a1c4d8f3619de771fa3fddcb",
+      "strip": 0,
+      "url": "https://android.googlesource.com/platform/build/+archive/874fa586c48ae230ebfcff0df1b9c1b004fa8f7c/tools/zipalign.tar.gz"
+    },
+    "external_abseil-cpp.tar.gz": {
+      "license": "Apache-2.0",
+      "path": "external/abseil-cpp",
+      "sha256": "a18297dbfa543d63e0efecad6e0ee9c28c0e85d9f890aa5231ca918f6a14930c",
+      "strip": 0,
+      "url": "https://android.googlesource.com/platform/external/abseil-cpp/+archive/3c03adaaf6c28f5c5c47c753e860b9ac16957b35.tar.gz"
+    },
+    "external_fmtlib.tar.gz": {
+      "license": "MIT",
+      "path": "external/fmtlib",
+      "sha256": "b5e97361bd3a91813a58fccfbe38c9c67bc6c0e50bf48bdfdd5c7c02bf9b5936",
+      "strip": 0,
+      "url": "https://android.googlesource.com/platform/external/fmtlib/+archive/b94c6ae0bc963c4f38bce355fe74bec30eaf0be2.tar.gz"
+    },
+    "external_googletest.tar.gz": {
+      "license": "BSD-3-Clause",
+      "path": "external/googletest",
+      "sha256": "0fc04aab207de472912331b6465e21a3f8d73c894c5c6dac8786b502f2b39566",
+      "strip": 0,
+      "url": "https://android.googlesource.com/platform/external/googletest/+archive/ed43ae9f2f62df2b77e2400da414c126e7203e7a.tar.gz"
+    },
+    "external_protobuf.tar.gz": {
+      "license": "BSD-3-Clause AND MIT (utf8_range)",
+      "path": "external/protobuf",
+      "sha256": "017ecc9af87a782b38b84ad074f7063b31ee04d2951bf6d885383bf6aa08c7d3",
+      "strip": 0,
+      "url": "https://android.googlesource.com/platform/external/protobuf/+archive/da98e5a6593907dd162bb6c206570c0afa5326ac.tar.gz"
+    },
+    "external_tinyxml2.tar.gz": {
+      "license": "Zlib",
+      "path": "external/tinyxml2",
+      "sha256": "1a13e5c04bfd33d8dbef4bb36399637ad061cd58f72d74c882fd77efd8f7a87c",
+      "strip": 0,
+      "url": "https://android.googlesource.com/platform/external/tinyxml2/+archive/7485b22521f577cf944e5687361548d8993d8d2c.tar.gz"
+    },
+    "external_zopfli.tar.gz": {
+      "license": "Apache-2.0 AND Zlib",
+      "path": "external/zopfli",
+      "sha256": "42c7878c876dad473244fe641af27f17f954d0fd817ff5a067f7c26755af916a",
+      "strip": 0,
+      "url": "https://android.googlesource.com/platform/external/zopfli/+archive/3d0f5fb602c2532d76f4dc71a16fdf59832ad93d.tar.gz"
+    },
+    "frameworks_base_cmds_idmap2_libidmap2_policies.tar.gz": {
+      "license": "Apache-2.0",
+      "path": "frameworks/base/cmds/idmap2/libidmap2_policies",
+      "sha256": "8ae078370a915691fd45296d41ebf707fecb939b3f1c96dd0e2fdfd7bded074b",
+      "strip": 0,
+      "url": "https://android.googlesource.com/platform/frameworks/base/+archive/99b01a65cc4c104933788b3143285ab6bae65827/cmds/idmap2/libidmap2_policies.tar.gz"
+    },
+    "frameworks_base_libs_androidfw.tar.gz": {
+      "license": "Apache-2.0",
+      "path": "frameworks/base/libs/androidfw",
+      "sha256": "b615fa144079e57aed1fc20808390ea593d40bfd48459a4bfef21cfbe145a777",
+      "strip": 0,
+      "url": "https://android.googlesource.com/platform/frameworks/base/+archive/99b01a65cc4c104933788b3143285ab6bae65827/libs/androidfw.tar.gz"
+    },
+    "frameworks_base_tools_aapt.tar.gz": {
+      "license": "Apache-2.0",
+      "path": "frameworks/base/tools/aapt",
+      "sha256": "e796d7609a16947f5ed316e39088ef693be44aa4bcbf7654227454c48b2e2325",
+      "strip": 0,
+      "url": "https://android.googlesource.com/platform/frameworks/base/+archive/99b01a65cc4c104933788b3143285ab6bae65827/tools/aapt.tar.gz"
+    },
+    "frameworks_base_tools_aapt2.tar.gz": {
+      "license": "Apache-2.0",
+      "path": "frameworks/base/tools/aapt2",
+      "sha256": "6f44454596dc9d042e14486dc9f658a21f0ddf08ac96ae75ff30ce86aa84fec7",
+      "strip": 0,
+      "url": "https://android.googlesource.com/platform/frameworks/base/+archive/99b01a65cc4c104933788b3143285ab6bae65827/tools/aapt2.tar.gz"
+    },
+    "frameworks_base_tools_split-select.tar.gz": {
+      "license": "Apache-2.0",
+      "path": "frameworks/base/tools/split-select",
+      "sha256": "e422856c44b10ddee4603feed3bca3d71df48927f71d91eab122048c7b0f9d2a",
+      "strip": 0,
+      "url": "https://android.googlesource.com/platform/frameworks/base/+archive/99b01a65cc4c104933788b3143285ab6bae65827/tools/split-select.tar.gz"
+    },
+    "frameworks_native_include.tar.gz": {
+      "license": "Apache-2.0",
+      "path": "frameworks/native/include",
+      "sha256": "2833fbaf46b0875babc8bbf11f14c433dd27b5cb1108121093d2ace91ebbee7f",
+      "strip": 0,
+      "url": "https://android.googlesource.com/platform/frameworks/native/+archive/2827a4a16b0340ecd07c2d5a6c89991799b362bb/include.tar.gz"
+    },
+    "libcore_ojluni_src_lambda_java.tar.gz": {
+      "license": "GPL-2.0-only WITH Classpath-exception-2.0",
+      "path": "libcore/ojluni/src/lambda/java",
+      "sha256": "985981d4d69a413b2704c21f0c6c08d775deba71f8b8e40bc85aada95840ba1f",
+      "strip": 0,
+      "url": "https://android.googlesource.com/platform/libcore/+archive/fff4fcc0cf7f080cf2511cbb57561482b13b218f/ojluni/src/lambda/java.tar.gz"
+    },
+    "system_core_libcutils.tar.gz": {
+      "license": "Apache-2.0",
+      "path": "system/core/libcutils",
+      "sha256": "c46ebfb84538a85c8e816a354e37cf5249ee1813f7aaf7ca1d9c02b0b218317e",
+      "strip": 0,
+      "url": "https://android.googlesource.com/platform/system/core/+archive/68be0c2c0006a0740d0b1809abe4717308f90d15/libcutils.tar.gz"
+    },
+    "system_core_libprocessgroup.tar.gz": {
+      "license": "Apache-2.0",
+      "path": "system/core/libprocessgroup",
+      "sha256": "1f757c08809dcdef9c199946ab51b718e7de4862cfda1cf937c9d1e32e316fde",
+      "strip": 0,
+      "url": "https://android.googlesource.com/platform/system/core/+archive/68be0c2c0006a0740d0b1809abe4717308f90d15/libprocessgroup.tar.gz"
+    },
+    "system_core_libsystem.tar.gz": {
+      "license": "Apache-2.0",
+      "path": "system/core/libsystem",
+      "sha256": "22e241fb5e2435f23e21f08c2d21c22a78d47ac01e396ab914a229eea0979cbc",
+      "strip": 0,
+      "url": "https://android.googlesource.com/platform/system/core/+archive/68be0c2c0006a0740d0b1809abe4717308f90d15/libsystem.tar.gz"
+    },
+    "system_core_libutils.tar.gz": {
+      "license": "Apache-2.0",
+      "path": "system/core/libutils",
+      "sha256": "ca1f0191bf73b04d0b5de1d61882c2df1a65cab5993877fd31070d3c7a3a8b7c",
+      "strip": 0,
+      "url": "https://android.googlesource.com/platform/system/core/+archive/68be0c2c0006a0740d0b1809abe4717308f90d15/libutils.tar.gz"
+    },
+    "system_incremental_delivery_incfs_util.tar.gz": {
+      "license": "Apache-2.0",
+      "path": "system/incremental_delivery/incfs/util",
+      "sha256": "ebd3a740cce7042fc100b8c61a3207f2812b53f993cff115ddc6fb8d008ba0ff",
+      "strip": 0,
+      "url": "https://android.googlesource.com/platform/system/incremental_delivery/+archive/c999e3e207ec7633a172d773dda162746b6eaf18/incfs/util.tar.gz"
+    },
+    "system_libbase.tar.gz": {
+      "license": "Apache-2.0 AND BSD-3-Clause",
+      "path": "system/libbase",
+      "sha256": "f754aca4d763d9d5c18b3e3bf43ed739074b5fa460b6788e4b4eede58f553c01",
+      "strip": 0,
+      "url": "https://android.googlesource.com/platform/system/libbase/+archive/0ac7ea4a65d981166d6e5617e1e4ef0572f774e5.tar.gz"
+    },
+    "system_libziparchive.tar.gz": {
+      "license": "Apache-2.0",
+      "path": "system/libziparchive",
+      "sha256": "208216ab22bc2b26f1744fcce9e5040556af8be22178699b14ab3d614d3460f3",
+      "strip": 0,
+      "url": "https://android.googlesource.com/platform/system/libziparchive/+archive/8c51527debf9394dfa515f7e6c7941d2720c6d01.tar.gz"
+    },
+    "system_logging_liblog.tar.gz": {
+      "license": "Apache-2.0",
+      "path": "system/logging/liblog",
+      "sha256": "ac8bf18f7654755e0e16d6ebbaea781d2d9fbd59729216f6a399113744ac7147",
+      "strip": 0,
+      "url": "https://android.googlesource.com/platform/system/logging/+archive/d78b713380007d3c0dde14712cbcbec27f491ad9/liblog.tar.gz"
+    },
+    "system_tools_aidl.tar.gz": {
+      "license": "Apache-2.0",
+      "path": "system/tools/aidl",
+      "sha256": "79f8a7757885042ebf3f3c42b2694d87a43c7e007598d3a4943a5b4e10fbe784",
+      "strip": 0,
+      "url": "https://android.googlesource.com/platform/system/tools/aidl/+archive/5bde6fcffe8e3ac6feca449f7bc3502eed5fc0f5.tar.gz"
+    },
+    "tools_apksig.tar.gz": {
+      "license": "Apache-2.0",
+      "path": "tools/apksig",
+      "sha256": "a4bd10336c422bf7722874486852e02356050efd77f7a69b41d79544d6ed5e3b",
+      "strip": 0,
+      "url": "https://android.googlesource.com/platform/tools/apksig/+archive/5b00a9cf7c91df6d3642e9792e27530bfcb340f1.tar.gz"
+    }
+  },
+  "tool": {
+    "aosstudio-jdk-21.0.13.1-2-linux-x86_64.tar.gz": {
+      "license": "GPL-2.0-only WITH Classpath-exception-2.0",
+      "sha256": "38ea3237e496258a103aa482a7733a08bef94572473625d47a2f5a9854948840",
+      "url": "https://github.com/aosstudio/jdk/releases/download/latest/aosstudio-jdk-21.0.13.1-2-linux-x86_64.tar.gz"
+    },
+    "aosstudio-r8-9.5.28.tar.gz": {
+      "license": "BSD-3-Clause and bundled dependency notices",
+      "sha256": "761da18e0f2bd337f3d5ea67ab91a8f371b37a669372957ed38cfe017dc02598",
+      "url": "https://github.com/aosstudio/r8/releases/download/latest/aosstudio-r8-9.5.28.tar.gz"
+    },
+    "generate_operator_out.py": {
+      "gitiles_text": true,
+      "license": "Apache-2.0",
+      "sha256": "ea13bd12b99a6dee5d50d1a7c8151f7ab0332a8a1e58c25647df9aeb0fd7c871",
+      "url": "https://android.googlesource.com/platform/art/+/ed6c006bd06ae060bd9698fd2cb25c4865512ec3/tools/generate_operator_out.py?format=TEXT"
+    },
+    "libcore-LICENSE": {
+      "gitiles_text": true,
+      "license": "libcore notices including GPL-2.0-only WITH Classpath-exception-2.0",
+      "sha256": "067d8f7f645efe1131a9df13aa80ec2910d4ff898f9b14d337443a4202d56ab6",
+      "url": "https://android.googlesource.com/platform/libcore/+/fff4fcc0cf7f080cf2511cbb57561482b13b218f/LICENSE?format=TEXT"
+    },
+    "libcore-NOTICE": {
+      "gitiles_text": true,
+      "license": "libcore notices including GPL-2.0-only WITH Classpath-exception-2.0",
+      "sha256": "ded3eab76e881c8c18ab9e4ed9e888b1afcac41435913930f88f8188cecb2e8f",
+      "url": "https://android.googlesource.com/platform/libcore/+/fff4fcc0cf7f080cf2511cbb57561482b13b218f/NOTICE?format=TEXT"
+    }
+  },
+  "version": "36.0.0"
+}

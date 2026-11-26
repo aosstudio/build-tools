@@ -1,0 +1,57 @@
+set(AIDL_SOURCES
+    ${SOURCE_DIR}/system/tools/aidl/aidl_checkapi.cpp
+    ${SOURCE_DIR}/system/tools/aidl/aidl_const_expressions.cpp
+    ${SOURCE_DIR}/system/tools/aidl/aidl_dumpapi.cpp
+    ${SOURCE_DIR}/system/tools/aidl/aidl_language.cpp
+    ${SOURCE_DIR}/system/tools/aidl/aidl_to_common.cpp
+    ${SOURCE_DIR}/system/tools/aidl/aidl_to_cpp_common.cpp
+    ${SOURCE_DIR}/system/tools/aidl/aidl_to_cpp.cpp
+    ${SOURCE_DIR}/system/tools/aidl/aidl_to_java.cpp
+    ${SOURCE_DIR}/system/tools/aidl/aidl_to_ndk.cpp
+    ${SOURCE_DIR}/system/tools/aidl/aidl_to_rust.cpp
+    ${SOURCE_DIR}/system/tools/aidl/aidl_typenames.cpp
+    ${SOURCE_DIR}/system/tools/aidl/aidl.cpp
+    ${SOURCE_DIR}/system/tools/aidl/ast_java.cpp
+    ${SOURCE_DIR}/system/tools/aidl/check_valid.cpp
+    ${SOURCE_DIR}/system/tools/aidl/code_writer.cpp
+    ${SOURCE_DIR}/system/tools/aidl/comments.cpp
+    ${SOURCE_DIR}/system/tools/aidl/diagnostics.cpp
+    ${SOURCE_DIR}/system/tools/aidl/generate_aidl_mappings.cpp
+    ${SOURCE_DIR}/system/tools/aidl/generate_cpp.cpp
+    ${SOURCE_DIR}/system/tools/aidl/generate_cpp_analyzer.cpp
+    ${SOURCE_DIR}/system/tools/aidl/generate_java_binder.cpp
+    ${SOURCE_DIR}/system/tools/aidl/generate_java.cpp
+    ${SOURCE_DIR}/system/tools/aidl/generate_ndk.cpp
+    ${SOURCE_DIR}/system/tools/aidl/generate_rust.cpp
+    ${SOURCE_DIR}/system/tools/aidl/import_resolver.cpp
+    ${SOURCE_DIR}/system/tools/aidl/io_delegate.cpp
+    ${SOURCE_DIR}/system/tools/aidl/location.cpp
+    ${SOURCE_DIR}/system/tools/aidl/logging.cpp
+    ${SOURCE_DIR}/system/tools/aidl/options.cpp
+    ${SOURCE_DIR}/system/tools/aidl/parser.cpp
+    ${SOURCE_DIR}/system/tools/aidl/permission.cpp
+    ${SOURCE_DIR}/system/tools/aidl/preprocess.cpp
+    ${SOURCE_DIR}/system/tools/aidl/main.cpp
+)
+
+set(ZIPALIGN_SOURCES
+    ${SOURCE_DIR}/build/tools/zipalign/ZipAlignMain.cpp
+    ${SOURCE_DIR}/build/tools/zipalign/ZipAlign.cpp
+    ${SOURCE_DIR}/build/tools/zipalign/ZipEntry.cpp
+    ${SOURCE_DIR}/build/tools/zipalign/ZipFile.cpp
+)
+
+set(ZOPFLI_SOURCES
+    ${SOURCE_DIR}/external/zopfli/src/zopfli/blocksplitter.c
+    ${SOURCE_DIR}/external/zopfli/src/zopfli/cache.c
+    ${SOURCE_DIR}/external/zopfli/src/zopfli/deflate.c
+    ${SOURCE_DIR}/external/zopfli/src/zopfli/gzip_container.c
+    ${SOURCE_DIR}/external/zopfli/src/zopfli/hash.c
+    ${SOURCE_DIR}/external/zopfli/src/zopfli/katajainen.c
+    ${SOURCE_DIR}/external/zopfli/src/zopfli/lz77.c
+    ${SOURCE_DIR}/external/zopfli/src/zopfli/squeeze.c
+    ${SOURCE_DIR}/external/zopfli/src/zopfli/tree.c
+    ${SOURCE_DIR}/external/zopfli/src/zopfli/util.c
+    ${SOURCE_DIR}/external/zopfli/src/zopfli/zlib_container.c
+    ${SOURCE_DIR}/external/zopfli/src/zopfli/zopfli_lib.c
+)
