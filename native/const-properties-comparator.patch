@@ -1,0 +1,21 @@
+Copyright (C) 2016 The Android Open Source Project
+SPDX-License-Identifier: Apache-2.0
+
+Upstream commit https://android.googlesource.com/platform/system/libbase/+/6d19b5c690fa4220c10e42c2326150bbd4d4b7bb
+Upstream review https://android-review.googlesource.com/q/Ic159de77c029458c0ca8bfa8dd970e7ade47865a
+
+--- a/properties.cpp
++++ b/properties.cpp
+@@ -60,9 +60,9 @@
+ 
+ struct prop_info_cmp {
+   using is_transparent = void;
+-  bool operator()(const prop_info& lhs, const prop_info& rhs) { return lhs.key < rhs.key; }
+-  bool operator()(std::string_view lhs, const prop_info& rhs) { return lhs < rhs.key; }
+-  bool operator()(const prop_info& lhs, std::string_view rhs) { return lhs.key < rhs; }
++  bool operator()(const prop_info& lhs, const prop_info& rhs) const { return lhs.key < rhs.key; }
++  bool operator()(std::string_view lhs, const prop_info& rhs) const { return lhs < rhs.key; }
++  bool operator()(const prop_info& lhs, std::string_view rhs) const { return lhs.key < rhs; }
+ };
+ 
+ static auto& g_properties_lock = *new std::mutex;

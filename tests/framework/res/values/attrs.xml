@@ -1,0 +1,4 @@
+<resources>
+    <attr name="hasCode" format="boolean"/>
+    <public type="attr" name="hasCode" id="0x0101000c"/>
+</resources>

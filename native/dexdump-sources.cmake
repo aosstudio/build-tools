@@ -1,0 +1,56 @@
+set(ART_BASE
+    ${SOURCE_DIR}/art/libartbase/arch/instruction_set.cc
+    ${SOURCE_DIR}/art/libartbase/base/allocator.cc
+    ${SOURCE_DIR}/art/libartbase/base/arena_allocator.cc
+    ${SOURCE_DIR}/art/libartbase/base/arena_bit_vector.cc
+    ${SOURCE_DIR}/art/libartbase/base/bit_vector.cc
+    ${SOURCE_DIR}/art/libartbase/base/compiler_filter.cc
+    ${SOURCE_DIR}/art/libartbase/base/file_magic.cc
+    ${SOURCE_DIR}/art/libartbase/base/file_utils.cc
+    ${SOURCE_DIR}/art/libartbase/base/flags.cc
+    ${SOURCE_DIR}/art/libartbase/base/hex_dump.cc
+    ${SOURCE_DIR}/art/libartbase/base/logging.cc
+    ${SOURCE_DIR}/art/libartbase/base/malloc_arena_pool.cc
+    ${SOURCE_DIR}/art/libartbase/base/membarrier.cc
+    ${SOURCE_DIR}/art/libartbase/base/memfd.cc
+    ${SOURCE_DIR}/art/libartbase/base/memory_region.cc
+    ${SOURCE_DIR}/art/libartbase/base/mem_map.cc
+    ${SOURCE_DIR}/art/libartbase/base/metrics/metrics_common.cc
+    ${SOURCE_DIR}/art/libartbase/base/os_linux.cc
+    ${SOURCE_DIR}/art/libartbase/base/pointer_size.cc
+    ${SOURCE_DIR}/art/libartbase/base/runtime_debug.cc
+    ${SOURCE_DIR}/art/libartbase/base/scoped_arena_allocator.cc
+    ${SOURCE_DIR}/art/libartbase/base/scoped_flock.cc
+    ${SOURCE_DIR}/art/libartbase/base/socket_peer_is_trusted.cc
+    ${SOURCE_DIR}/art/libartbase/base/time_utils.cc
+    ${SOURCE_DIR}/art/libartbase/base/unix_file/fd_file.cc
+    ${SOURCE_DIR}/art/libartbase/base/unix_file/random_access_file_utils.cc
+    ${SOURCE_DIR}/art/libartbase/base/utils.cc
+    ${SOURCE_DIR}/art/libartbase/base/zip_archive.cc
+    ${SOURCE_DIR}/art/libartbase/base/globals_unix.cc
+    ${SOURCE_DIR}/art/libartbase/base/mem_map_unix.cc
+)
+set(ART_DEX
+    ${SOURCE_DIR}/art/libdexfile/dex/compact_dex_file.cc
+    ${SOURCE_DIR}/art/libdexfile/dex/compact_offset_table.cc
+    ${SOURCE_DIR}/art/libdexfile/dex/art_dex_file_loader.cc
+    ${SOURCE_DIR}/art/libdexfile/dex/descriptors_names.cc
+    ${SOURCE_DIR}/art/libdexfile/dex/dex_file.cc
+    ${SOURCE_DIR}/art/libdexfile/dex/dex_file_exception_helpers.cc
+    ${SOURCE_DIR}/art/libdexfile/dex/dex_file_loader.cc
+    ${SOURCE_DIR}/art/libdexfile/dex/dex_file_tracking_registrar.cc
+    ${SOURCE_DIR}/art/libdexfile/dex/dex_file_verifier.cc
+    ${SOURCE_DIR}/art/libdexfile/dex/dex_instruction.cc
+    ${SOURCE_DIR}/art/libdexfile/dex/modifiers.cc
+    ${SOURCE_DIR}/art/libdexfile/dex/primitive.cc
+    ${SOURCE_DIR}/art/libdexfile/dex/signature.cc
+    ${SOURCE_DIR}/art/libdexfile/dex/standard_dex_file.cc
+    ${SOURCE_DIR}/art/libdexfile/dex/type_lookup_table.cc
+    ${SOURCE_DIR}/art/libdexfile/dex/utf.cc
+    ${SOURCE_DIR}/art/libdexfile/external/dex_file_ext.cc
+)
+set(ART_DUMPER
+    ${SOURCE_DIR}/art/dexdump/dexdump_cfg.cc
+    ${SOURCE_DIR}/art/dexdump/dexdump_main.cc
+    ${SOURCE_DIR}/art/dexdump/dexdump.cc
+)
